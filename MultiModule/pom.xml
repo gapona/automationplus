@@ -13,10 +13,10 @@
         <module>RP.AUTOCODE</module>
         <module>RP.AUTOTEST</module>
     </modules>
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory>
     </properties>
 
 </project>
